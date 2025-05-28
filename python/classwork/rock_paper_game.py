@@ -9,17 +9,17 @@ if choice_play != make_choice:
 	print("Invalide entry please try again later")
 
 
-computre_choice = random.choice(make_choice)
+computer_choice = random.choice(make_choice)
 print(f"the computer choose {computer_choice}")
 
-if choice_play == computre_choice:
+if choice_play == computer_choice:
 	print("It's a tie")
 	
-elif	choice_play == "rock" and computre_choice == "scissors":
+elif	choice_play == "rock" and computer_choice == "scissors":
 	print("you win")
-elif	choice_play == "scissors" and computre_choice == "paper":
+elif	choice_play == "scissors" and computer_choice == "paper":
 	print("you win")
-elif	choice_play == "paper" and computre_choice == "rock":
+elif	choice_play == "paper" and computer_choice == "rock":
 	print("you win")
 else :
 	print("computer wins")
