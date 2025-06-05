@@ -73,5 +73,3 @@ function startQuiz() {
   console.log("Correct Answers:", userHistory.correct.length);
   console.log("Missed Answers:", userHistory.missed.length);
 }
-
-startQuiz();
